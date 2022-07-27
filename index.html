@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong </title>
+    <!--NORMALIZE STYLE-->
+    <link rel="stylesheet" href="style/normalize.css">
+    <!--MAIN STYLE-->
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <img width="250px" src="./images/ping-pong.webp" alt="Ping pong images" class="img">
+        <h2 class="title">PingPong ScoreKeeper</h2>
+        <div class="result">
+            <span id="score1">0</span> to <span id="score2">0</span>
+        </div>
+        <select name="select" class="select" id="select" value="11">
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+        </select>
+       <div>
+        <button class="btn" id="player-one__btn">+ Player 1</button>
+        <button class="btn" id="player-two__btn">+ Player 2</button>
+       </div>
+        <button class="btn" id="reset__btn">reset</button>
+    </div>
+   
+    
+           <!--JAVASCRIPT-->
+        <script src="app.js"></script>
+</body>
+</html>
